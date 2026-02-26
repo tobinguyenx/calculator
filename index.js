@@ -11,3 +11,18 @@ add.addEventListener("click", () => {
   let result = num1 + num2;
   sum.innerText = "= " + result;
 });
+
+divide.addEventListener("click", () => {
+  let result = num1 / num2;
+  sum.innerText = "= " + result;
+});
+
+multiply.addEventListener("click", () => {
+  let result = num1 * num2;
+  sum.innerText = "= " + result;
+});
+
+Substract.addEventListener("click", () => {
+  let result = num1 - num2;
+  sum.innerText = "= " + result;
+});
